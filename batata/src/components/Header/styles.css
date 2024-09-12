@@ -1,0 +1,29 @@
+.cabecalho {  
+    background-color: rgb(104, 155, 138);
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.cabecalo ol { /*desntro de cabeçalho ol*/
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around; /*espaços entre eles botoes*/
+}
+
+.cabecalo ol a{ 
+    width: 99%;/*TAMANHO BOTAOs*/
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.cabecalo ol a:hover{ 
+    background-color:rgb(58, 85, 76) ;
+}
+
+.cabecalho ol li{
+    
+    padding: 10px;
+}
